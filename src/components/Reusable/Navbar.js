@@ -34,7 +34,7 @@ export class Navbar extends Component {
                     onClick={this.myToggler}>
                     <span className="text-white">Menu</span>
                 </button>
-                <div classname={this.state.navbarClass}>
+                <div classname={this.state.navbarClass} style={{display:"contents"}}>
                     <ul className="navbar-nav ml-auto mr-5">
                     {this.state.menus.map(menu => {
                         return(
