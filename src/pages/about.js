@@ -14,7 +14,7 @@ const AboutPage = ({data}) => (
     <SEO title="Home" />
     <Herosection
     img={data.img.childImageSharp.fluid}
-      title="About learncodeonline"
+      title="About mytechknowledge"
       heroclass="about-background"
     />
     <Dualinfoblock heading="Message from the CEO"/>

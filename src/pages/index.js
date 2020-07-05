@@ -15,7 +15,7 @@ const IndexPage = ({data}) => (
     <Herosection
     img={data.img.childImageSharp.fluid}
       title="I WRITE CODE"
-      subtitle="Learncodeonline.in"
+      subtitle="mytechknowledge.netlify.app"
       heroclass="hero-background"
     />
     <Infoblock heading="About Us"/>
